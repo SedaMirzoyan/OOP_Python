@@ -1,4 +1,4 @@
-#Multiple inheritancs
+#Multiple inheritance
 
 class Mammal:
     def __init__(self, name):
