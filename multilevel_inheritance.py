@@ -39,5 +39,6 @@ class Lion(Mammal):
         print("I am lion, I can eat")
 
 
-lion = Lion("beige", "lion", 1)
+lion = Lion("beige", "Simba", 1)
 lion.eat()
+print(lion.name)
