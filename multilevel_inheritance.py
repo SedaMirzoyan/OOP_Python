@@ -1,9 +1,11 @@
 #Multilevel inheritance
 
 class Animal:
-    def __init__(self, num_heart):
+    can_hunt = True
+    def __init__(self, num_heart, name):
         print("Animal constructor")
         self.num_heart = num_heart
+        self.name = name
 
     def sleep(self):
         print("I am an animal, I can sleep")
@@ -27,7 +29,7 @@ class Lion(Mammal):
     def __init__(self, color, name, num_heart):
         print("Lion constructor")
         Mammal.__init__(self, name)
-        Animal.__init__(self, num_heart)
+        Animal.__init__(self, num_heart, name)
         self.color = color
 
     def hunt(self):
@@ -42,3 +44,4 @@ class Lion(Mammal):
 lion = Lion("beige", "Simba", 1)
 lion.eat()
 print(lion.name)
+print(lion.can_hunt)
