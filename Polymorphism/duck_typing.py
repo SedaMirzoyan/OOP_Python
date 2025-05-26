@@ -1,3 +1,5 @@
+#Duck typing
+
 class Dog:
     def swim(self):
         print("Dog is swimming")
