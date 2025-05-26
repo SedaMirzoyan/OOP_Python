@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <string>
 #define pi 3.14
 
 int calculatePerimeter(int side1, int side2, int side3)
@@ -21,7 +22,15 @@ int calculatePerimeter(int radius)
     return 2 * pi * radius;
 }
 
+void print(int a)
+{
+    std::cout << "Input is " << a << std::endl;
+}
 
+void print(std::string s)
+{
+    std::cout << "Input is " << s << std::endl;
+}
 
 int main()
 {
@@ -31,5 +40,10 @@ int main()
     std::cout << circle << std::endl;
     int rectangle = calculatePerimeter(5, 7);
     std::cout << rectangle << std::endl;
+
+    int a = 5;
+    std::string s = "Tom";
+    print(a);
+    print(s);
 
 }
