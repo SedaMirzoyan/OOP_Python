@@ -1,10 +1,10 @@
 Practice on OOP Paradigms:
 
 * Inheritance:
-      * Multiple inheritance
-      * Multilevel inheritance
-      * Multiple inheritance
-      * Multiple inheritance
+    * Duck typing
+    * Operator overloading
+    * Method overloading
+    * Method overriding
 
 * Encapsulation
 * Abstraction
