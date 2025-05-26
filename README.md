@@ -18,10 +18,8 @@ Practice on OOP Paradigms:
         * Virtual functions (Method overriding)
  
 * Polymorphism in Python:
-    * Compile time:
-        * Method overloading
-        * Operator overloading
-    * Run time:
-        * Method overriding
-        * Duck typing
+    * Method overloading
+    * Operator overloading
+    * Method overriding
+    * Duck typing
    
