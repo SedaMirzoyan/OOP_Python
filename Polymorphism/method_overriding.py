@@ -1,4 +1,4 @@
-#Multilevel inheritance
+#Method overriding
 
 class Animal:
     can_hunt = True
