@@ -1,3 +1,7 @@
+/**
+* Operator overloading,
+* Compile time polymorphism example in C++
+*/
 
 #include <iostream>
 
