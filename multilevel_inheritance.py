@@ -68,7 +68,14 @@ class Lion(Mammal):
     Lion class, which inherits from Mammal class
     """
     def __init__(self, color, name, num_heart):
-        
+        """
+        Initializes a Lion instance. 
+        Calls base class's constructors as well.
+
+        Args:
+            num_heart (string): number of hearts
+            name (string): name of the lion
+        """
         print("Lion constructor")
         Mammal.__init__(self, name)
         Animal.__init__(self, num_heart, name)
