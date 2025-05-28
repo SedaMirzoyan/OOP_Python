@@ -97,7 +97,7 @@ class Scooter(Vehicle):
 
 """
 Calling Vehicle class constructor for creating scooter object, 
-with number of wheels and color, then print color
+with number of wheels and color, then print scooter color
 """
 scooter = Scooter(2, "red")
 print(scooter.color)
