@@ -4,6 +4,10 @@ class Animal:
     """
     This is base class for all animals, 
     with can_hunt class variable
+
+    Attributes:
+        num_heart (string): number of hearts
+        name (string): name of the animal
     """
     can_hunt = True
     def __init__(self, num_heart, name):
@@ -36,6 +40,9 @@ class Animal:
 class Mammal(Animal):
     """
     Mammal class, which inherits from Animal class
+
+    Attributes:
+        name (string): name of the animal
     """
     def __init__(self, name):
         """
@@ -66,6 +73,10 @@ class Mammal(Animal):
 class Lion(Mammal):
     """
     Lion class, which inherits from Mammal class
+
+    Attributes:
+        num_heart (string): number of hearts
+        name (string): name of the animal
     """
     def __init__(self, color, name, num_heart):
         """
