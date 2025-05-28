@@ -8,7 +8,7 @@ class Vehicle(ABC):
     with drive abstract method
 
     Attributes:
-        color (string): color of the car
+        color (string): color of the vehicle
         num_of_wheels (int): number of the wheels  
     """
     def __init__(self, n, color):
@@ -33,7 +33,7 @@ class Car(Vehicle):
 
     Attributes:
         color (string): Color of the car
-        num_of_wheels (int): Number of wheels of the car
+        num_of_wheels (int): Number of the wheels of the car
     """
 
     def __init__(self, color):
@@ -60,7 +60,7 @@ class Bike(Vehicle):
 
     Attributes:
         color (string): Color of the bike
-        num_of_wheels (int): Number of wheels of the bike
+        num_of_wheels (int): Number of the wheels of the bike
     """
 
     def __init__(self, color):
@@ -86,7 +86,7 @@ class Scooter(Vehicle):
 
     Attributes:
         color (string): Color of the scooter
-        num_of_wheels (int): Number of wheels of the scooter
+        num_of_wheels (int): Number of the wheels of the scooter
     """
     #def __init__(self, color):
     #    self.num_of_wheels = 2
