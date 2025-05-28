@@ -1,6 +1,5 @@
-/*
+/**
 * Diamond problem example
-*
 * Platypus is a mammal, but has mix of characteristics from reptiles, birds as well.
 * In the following example Platypus inherits from both Mammal and Reptile classes.
 */
