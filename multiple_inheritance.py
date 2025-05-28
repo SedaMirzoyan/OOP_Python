@@ -1,4 +1,9 @@
-#Multiple inheritance
+"""
+#Multiple inheritance example
+
+Platypus is a mammal, but has mix of characteristics from reptiles, birds as well.
+In the following example Platypus inherits from Mammal, Reptile and Bird classes.
+"""
 
 class Mammal:
     def __init__(self, name):
@@ -25,7 +30,12 @@ class Reptile:
         print("I am a reptile, I can swim")
 
 
-class Platypus(Mammal, Reptile):
+class Bird:
+    def display(self):
+        print("I have a duck-like bill")
+
+
+class Platypus(Mammal, Reptile, Bird):
     def __init__(self, name, heart):
         Reptile.__init__(self, heart)
         Mammal.__init__(self, name)
@@ -37,6 +47,7 @@ class Platypus(Mammal, Reptile):
         print("I am both mammal and reptile, I can swim")
 
     def display(self):
+        super().display()
         print(f"I am {self.name} I can swim, sleep and crawl")
 
 
@@ -53,3 +64,5 @@ Reptile.swim(ob)
 print("calling Mammal swim method")
 Mammal.swim(ob)
 ob.display()
+
+
