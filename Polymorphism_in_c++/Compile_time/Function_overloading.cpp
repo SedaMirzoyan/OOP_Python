@@ -1,3 +1,10 @@
+/**
+* Example of Compile time polymorphism in C++,
+* Function overloading,
+* calculatePerimeter function gets different number of parameters,
+* print function gets different types of parameters
+*/
+
 
 #include <iostream>
 #include <string>
