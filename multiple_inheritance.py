@@ -102,7 +102,7 @@ class Platypus(Mammal, Reptile, Bird):
 
     def swim(self):
         """
-        Prints message in swim method
+        Prints message in swim method, overrides base method
         """
         print("I am both mammal and reptile, I can swim")
 
