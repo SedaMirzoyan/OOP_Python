@@ -1,4 +1,4 @@
-#Multiple inheritancs
+#Multiple inheritance
 
 class LandAnimal:
     def __init__(self, name):
