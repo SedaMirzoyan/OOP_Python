@@ -1,6 +1,6 @@
 /**
-Method overriding, virtual functions,
-Run time polymorphism in C++
+* Method overriding, virtual functions,
+* Run time polymorphism in C++
 */
 
 #include <iostream>
