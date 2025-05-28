@@ -3,6 +3,11 @@
 class LandAnimal:
     """
     This is base class for all land animals.
+
+    Attributes:
+        name (string): name of the land animal
+        num_eyes (int): number of eyes of the land animal
+        num_nose (int): number of nose of the land animal        
     """
     def __init__(self, name):
         """
@@ -34,6 +39,10 @@ class LandAnimal:
 class WaterAnimal:
     """
     This is base class for all water animals.
+
+    Attributes:
+        num_tail (int): number of tail of the water animal
+        num_heart (int): number of heart of the water animal   
     """
     def __init__(self, heart):
         """
@@ -57,6 +66,10 @@ class WaterAnimal:
 class Amphibian(LandAnimal, WaterAnimal):
     """
     Amphibian class inherits from both Land Animal and Water Animal classes
+
+    Attributes:
+        name (string): name of the amphibian
+        num_heart (int): number of heart of the amphibian
     """
     def __init__(self, name, heart):
         """
@@ -64,7 +77,7 @@ class Amphibian(LandAnimal, WaterAnimal):
         Calling Wzter Animal and Land Animal constructors as well.
 
         Args:
-            name (string): name of the land animal
+            name (string): name of the amphibian
             heart (string): number of heart
         """
         WaterAnimal.__init__(self, heart)
