@@ -1,4 +1,9 @@
-//Multiple inheritance, Diamond problem
+/**
+* Multiple inheritance, Diamond problem,
+* Pure virtual functions, Abstarct class,
+* Virtual functions, Method overriding,
+* Run time polymorphism in C++
+*/
 
 #include <iostream>
 #include <string>
