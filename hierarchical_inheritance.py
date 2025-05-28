@@ -3,6 +3,9 @@
 class Animal:
     """
     Base class Animal
+
+    Attributes:
+        num_heart (int): number_of heart of the animal
     """
     def __init__(self, num_heart):
         """
@@ -31,6 +34,11 @@ class Animal:
 class Mammal(Animal):
     """
     Mammal class, which inherits from Animal class
+
+    Attributes:
+        num_heart (int): number_of heart of the animal
+        name (string): name
+        color (string): color
     """
     def __init__(self, num_heart, name, color):
         """
@@ -58,6 +66,9 @@ class Mammal(Animal):
 class Fish(Animal):
     """
     Fish class, which inherits from Animal class
+
+    Attributes:
+        species (string): species
     """
     def __init__(self, species):
         """
@@ -80,6 +91,10 @@ class Fish(Animal):
 class Amphibian(Animal):
     """
     Amphibian class, which inherits from Animal class
+
+    Attributes:
+        num_heart (int): number_of heart of the animal
+        species (string): species
     """
     def __init__(self, num_heart, species):
         """
