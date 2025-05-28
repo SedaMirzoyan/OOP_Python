@@ -1,4 +1,5 @@
-/* Generic programming, 
+/**
+* Generic programming, 
 * Example of compile time polymorphism in C++,
 * Array class implemented with templates
 */
