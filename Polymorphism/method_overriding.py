@@ -6,7 +6,7 @@ class Animal:
     with can_hunt class variable
 
     Attributes:
-        num_heart (string): number of hearts
+        num_heart (int): number of hearts
         name (string): name of the animal
     """
     can_hunt = True
@@ -15,7 +15,7 @@ class Animal:
         Initializes a Vehicle instance.
 
         Args:
-            num_heart (string): number of hearts
+            num_heart (int): number of hearts
             name (string): name of the animal
         """
         print("Animal constructor")
@@ -76,7 +76,7 @@ class Lion(Mammal):
     Derived Lion class, which inherits from Mammal class
 
     Attributes:
-        num_heart (string): number of hearts
+        num_heart (int): number of hearts
         name (string): name of the animal
         color (string): color of the lion
     """
@@ -85,7 +85,7 @@ class Lion(Mammal):
         Initializes a Vehicle instance.
 
         Args:
-            num_heart (string): number of hearts
+            num_heart (int): number of hearts
             name (string): name of the animal
         """
         print("Lion constructor")
