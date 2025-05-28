@@ -5,14 +5,14 @@ class Animal:
     Base class Animal
 
     Attributes:
-        num_heart (int): number_of heart of the animal
+        num_heart (int): number of heart of the animal
     """
     def __init__(self, num_heart):
         """
         Initializes an Animal instance.
 
         Args:
-            num_heart (int): number_of heart of the animal
+            num_heart (int): number of heart of the animal
         """
         self.num_heart = num_heart
 
@@ -36,18 +36,18 @@ class Mammal(Animal):
     Mammal class, which inherits from Animal class
 
     Attributes:
-        num_heart (int): number_of heart of the animal
-        name (string): name
-        color (string): color
+        num_heart (int): number of heart of the mammal
+        name (string): name of the mammal
+        color (string): color of the mammal
     """
     def __init__(self, num_heart, name, color):
         """
         Initializes Mammal instance.
 
         Args:
-            num_heart (int): number_of heart of the animal
-            name (string): name
-            color (string): color
+            num_heart (int): number of heart of the animal
+            name (string): name of the mammal
+            color (string): color of the mammal
 
         Calling base class constructor as well with the help of super() function        
         """
@@ -93,7 +93,7 @@ class Amphibian(Animal):
     Amphibian class, which inherits from Animal class
 
     Attributes:
-        num_heart (int): number_of heart of the animal
+        num_heart (int): number of heart of the amphibian
         species (string): species
     """
     def __init__(self, num_heart, species):
@@ -101,7 +101,7 @@ class Amphibian(Animal):
         Initializes Amphibian instance.
 
         Args:
-            num_heart (int): number_of heart of the animal
+            num_heart (int): number of heart of the amphibian
             species (string): species
 
         Calling base class constructor as well with the help of super() function        
