@@ -6,6 +6,10 @@ class Vehicle(ABC):
     """
     This is an abstract base class for all vehicles, 
     with drive abstract method
+
+    Attributes:
+        color (string): color of the car
+        num_of_wheels (int): number of the wheels  
     """
     def __init__(self, n, color):
         """
