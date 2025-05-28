@@ -3,6 +3,11 @@
 class Student:
     """
     This is a base class for all students.
+
+    Attributes:
+            name (string): name of the student, initializes public attribute
+            _mark (int): mark of the student, initializes protected attribute
+            __age (int): age of the student, initializes private attribute 
     """
 
     def __init__(self, name, mark, age):
