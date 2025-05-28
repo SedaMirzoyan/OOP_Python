@@ -45,7 +45,7 @@ class Car(Vehicle):
 
     def drive(self):
         """
-        Prints a generic message about car.
+        Prints a generic message about car, overrides base method
         """
         print("Driving car")
 
@@ -71,7 +71,7 @@ class Bike(Vehicle):
 
     def drive(self):
         """
-        Prints a generic message about bike.
+        Prints a generic message about bike, overrides base method
         """
         print("Driving bike")
 
@@ -90,14 +90,14 @@ class Scooter(Vehicle):
 
     def drive(self):
         """
-        Prints a generic message about scooter.
+        Prints a generic message about scooter, overrides base method
         """
         print("Driving scooter")
 
 
 """
 Calling Vehicle class constructor for creating scooter object, 
-with number of wheels and color, then print scooter color
+with number of wheels and color, then print color
 """
 scooter = Scooter(2, "red")
 print(scooter.color)
