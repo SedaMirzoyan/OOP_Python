@@ -8,6 +8,11 @@ In the following example Platypus inherits from Mammal, Reptile and Bird classes
 class Mammal:
     """
     This is base class for all mammals.
+
+    Attributes:
+        name (string): name of the animal
+        num_eyes (int): number of eyes
+        num_nose (int): number of nose
     """
     def __init__(self, name):
         """
@@ -39,13 +44,17 @@ class Mammal:
 class Reptile:
     """
     This is base class for all reptiles.
+
+    Attributes:
+        num_heart (int): number of heart
+        num_tail (int): number of tail
     """
     def __init__(self, heart):
         """
         Initializes a Reptile instance.
 
         Args:
-            heart (string): number of heart
+            heart (int): number of heart
         """
         self.num_tail = 1
         self.num_heart = heart
@@ -80,6 +89,10 @@ class Bird:
 class Platypus(Mammal, Reptile, Bird):
     """
     Platypus class inhertits from Mammal, Reptile and Bird class
+
+    Attributes:
+        num_heart (int): number of heart
+        name (string): name of the platypus
     """
     def __init__(self, name, heart):
         """
@@ -87,7 +100,7 @@ class Platypus(Mammal, Reptile, Bird):
 
         Args:
             name (string): name of the platypus
-            heart (string): number of heart
+            heart (int): number of heart
         """
         Reptile.__init__(self, heart)
         Mammal.__init__(self, name)
