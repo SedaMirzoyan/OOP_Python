@@ -80,7 +80,7 @@ class Amphibian(LandAnimal, WaterAnimal):
 
     def swim(self):
         """
-        Prints message in swim method
+        Prints message in swim method, overrides base classes methods
         """
         print("I can live in both land and water, I can swim")
 
