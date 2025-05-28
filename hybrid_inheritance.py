@@ -12,7 +12,7 @@ class A:
 class B(A):
     """
     Base B class, which has display method,
-    prints a generic message in display method.
+    prints a generic message in display method, overrides base method.
     """
     def display(self):
         print("display from B")
@@ -33,14 +33,14 @@ class D(B, C):
     """
     def display(self):
         """
-        prints a generic message in display method.
+        prints a generic message in display method, overrides base method.
         """
         print("display from D")
 
 
     def show(self):
         """
-        prints a generic message in show method.
+        prints a generic message in show method, overrides base method.
         """
         print("show from D")    
 
